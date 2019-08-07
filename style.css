@@ -79,62 +79,22 @@
 		font-size: 32px;
 	}
 
-	.info{
-		position: relative;  
-		margin: 0 auto;	
-	}
-
-	.infoLeft{
-		margin: 0 108px 0 0;
-		padding: 32px 0 16px 0;
-	}
-
-	.name{
-		font-size: 24px;
-		font-weight: 700;
-		padding-bottom: 8px;
-		color: rgba(0,0,0,0.8);
-		overflow: hidden;
-		white-space: nowrap;
-		text-overflow: ellipsis; 
-	}
-
-	.position{
-		color: rgb(102, 102, 102);
+	.about {
+		padding: 30px 30px 30px 30px;
 		font-size: 13px;
+		line-height: 24px;
+		font-weight: 400;
 	}
 
-	.infoRight{
-		position: absolute;
-		right: 0px;
-		top: -24px;
-		width: 88px;
-		height: 88px;
+	.bookingbtn {
+		margin:0 30px;
 	}
 
-	img.avatar{
-		width: 88px;
-		height: 88px;
-		border-radius:50%;
-		box-shadow: 0px 4px 16px rgb(20,0,40, 0.35);
-	}
-
-	.intro{
-		padding: 16px 0;
-		color: rgb(102, 102, 102);
-		font-size: 13px;
-		line-height: 1.5;
-	}
-
-	.btHireMe{
-		margin: 16px 0;
-	}
-
-	.HireMeText{
-		background: rgb(20, 0, 250);
+	.bookingtxt {
+		background: rgb(251, 227, 0);
 		border: none;
     	border-radius: 4px;
-    	color: rgb(255, 255, 255);
+    	color: rgb(0, 0, 0);
 		display: inline-block; /* 去除外边框效果 1 */
 		outline:none; /* 去除外边框效果 2 */
     	font-size: 16px;
@@ -144,82 +104,33 @@
     	line-height: 48px;
     	text-align: center;
     	text-decoration: none;
-    	box-shadow: 0px 2px 12px rgb(20,0,250, 0.35);
-    }
-
-	.HireMeText:active{
-		background: rgb(20, 0, 232);
-    }
-    
-
-/*Tab 1
-    第二部分内容*/
-	.part2{
-		width: 100%;
-		height: 500px;
-		padding: 32px 24px;
-		position:absolute;
-		z-index: -1;
-		box-sizing: border-box;
-    }
-
-
-/*Tab 2
-    第一部分内容*/
-    .discover{
-        margin: 0 auto;
-        padding-top: 32px;
-        text-align: center;
-        font-size: 48px;
-        font-weight: 800;
-    }
-
-
-/*Tab 3
-    第一部分内容*/
-    .me{
-        margin: 0 auto;
-        padding-top: 32px;
-        text-align: center;
-        font-size: 48px;
-        font-weight: 800;
-    }
-
-/*底部浮动Tab*/
-	.tabbar{
-		width: 100%;
-		box-sizing: border-box;/*防止Padding撑开宽度*/
-		background: rgb(255, 255, 255);
-        box-shadow: 0px -1px 2px rgb(0,0,0, .05);
-        
-		height: calc(50px + constant(safe-area-inset-bottom)); 
-		/* 适配iPhoneX底部 兼容 iOS < 11.2 */
-		height: calc(50px + env(safe-area-inset-bottom)); 
-		/* 适配iPhoneX底部 兼容 iOS >= 11.2 */
-        
-        /* 底部浮动 */
-		left: 0;
-		position: fixed;
-		bottom: 0;
-	} 
-
-	.tab1, .tab2, .tab3{
-		float: left;
-		text-align: center;
-        width: 33.33%;
-        height: 50px;
-		font-size: 9px;
-        font-weight: 400;
-        padding-top: 6px;
-        box-sizing: border-box;/*防止Padding撑开宽度*/
-    }
-    
-    .tab1:hover, .tab2:hover, .tab3:hover{
-        background: rgb(0, 0, 0, 0.05);
-    }
-
-	.tab1 img, .tab2 img, .tab3 img{
-		width: 100%;
-		height: 24px;
-        margin-bottom: 2px;
+    	box-shadow: 0px 2px 12px rgb(251,227,0, 0.5);
 	}
+
+	.bookingtxt:active {
+		background: rgb(234,212,0);
+	}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
