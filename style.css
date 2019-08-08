@@ -156,6 +156,29 @@
 		letter-spacing: 1px;
 		line-height: 1.8;
 	}
+
+	.moreLinks {
+		float: left;
+	}
+
+	.moreLinks ul {
+		float: left;
+		padding: 0px;
+	}
+
+	.moreLinks li {
+		float: left;
+		list-style-type:none;
+		color: rgb(45, 185, 200);
+    	font-size: 12px;
+		font-weight: 400;
+    	padding: 10px 20px 0 0;
+	}
+
+	.moreLinks a:link {
+		color:rgb(45, 185, 200);
+		text-decoration: none;
+	}
  
 	.serRight {
 		float: right;
