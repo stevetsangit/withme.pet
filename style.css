@@ -8,7 +8,7 @@
 		padding-bottom: env(safe-area-inset-botom); 
 		/* 适配iPhoneX底部 兼容 iOS >= 11.2 */
 		
-		background: rgb(255, 255, 255);
+		background: rgb(250, 250, 250);
 		font-size: 14px;
 		font-family: -apple-system, BlinkMacSystemFont, 
 		"PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",
@@ -100,15 +100,19 @@
 		background: #eee;
 		background-image: url('imgs/aboutbg.png');
 		background-size: 200px;
-		padding:30px;
+		padding:40px 30px 40px 30px;
 	}
 
 	.about {
-		padding-bottom: 20px;
 		font-size: 13px;
 		letter-spacing: 1px;
 		line-height: 2;
 		font-weight: 300;
+		padding-right: 60px;
+	}
+
+	.about b{
+		font-weight: 400;
 	}
 
 	.bookingbtn {
@@ -143,8 +147,17 @@
 	}
 
 	.infoimgs {
-		height: 100px;
+		height: 90px;
 		margin-left: 20px; 
+	}
+
+	.service {
+		padding:40px 30px 40px 30px;
+	}
+
+	.btitle {
+		font-size: 18px;
+		font-family: futuraa;
 	}
 
 	
