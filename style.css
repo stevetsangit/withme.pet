@@ -96,8 +96,15 @@
 		font-family: futuraa;
 	}
 
+	.info {
+		background: #eee;
+		background-image: url('imgs/aboutbg.png');
+		background-size: 200px;
+		padding:30px;
+	}
+
 	.about {
-		padding: 30px 30px 20px 30px;
+		padding-bottom: 20px;
 		font-size: 13px;
 		letter-spacing: 1px;
 		line-height: 2;
@@ -105,7 +112,7 @@
 	}
 
 	.bookingbtn {
-		margin:0 30px;
+		margin:0 auto;
 	}
 
 	.bookingtxt {
@@ -127,6 +134,17 @@
 
 	.bookingtxt:active {
 		background: rgb(234,212,0);
+	}
+
+	.infoimg {
+		float: right;
+		right: 20px;
+		top: 250px;
+	}
+
+	.infoimgs {
+		height: 100px;
+		margin-left: 20px; 
 	}
 
 	
