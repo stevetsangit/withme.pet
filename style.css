@@ -106,8 +106,7 @@
 	.about {
 		font-size: 12px;
 		letter-spacing: 1px;
-		line-height: 2;
-		font-weight: 300;
+		line-height: 1.8;
 	}
 
 	.about b{
@@ -130,11 +129,43 @@
 	}
 
 	.btitle {
-		font-size: 18px;
+		font-size: 24px;
 		font-family: futuraa;
+		font-weight: 200;
+		padding-bottom: 50px;
+	}
+
+	.petSer {
+		float: left;
+		padding-bottom: 50px;
+	}
+
+	.serLeft {
+		float: left;
+		width: 65%;
+	}
+
+	.serTitle {
+		padding-bottom: 10px;
+		font-size: 16px;
 		font-weight: 600;
 	}
 
+	.serInfo {
+		font-size: 12px;
+		letter-spacing: 1px;
+		line-height: 1.8;
+	}
+ 
+	.serRight {
+		float: right;
+		width: 35%;
+	}
+
+	.serICONs {
+		float: right;
+		width: 64px;
+	}
 	
 
 
