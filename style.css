@@ -8,7 +8,7 @@
 		padding-bottom: env(safe-area-inset-botom); 
 		/* 适配iPhoneX底部 兼容 iOS >= 11.2 */
 		
-		background: rgb(238, 238, 238);
+		background: rgb(255, 255, 255);
 		font-size: 14px;
 		font-family: -apple-system, BlinkMacSystemFont, 
 		"PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",
@@ -82,8 +82,9 @@
 	.about {
 		padding: 30px 30px 30px 30px;
 		font-size: 13px;
+		letter-spacing: 1px;
 		line-height: 24px;
-		font-weight: 400;
+		font-weight: 300;
 	}
 
 	.bookingbtn {
@@ -98,7 +99,7 @@
 		display: inline-block; /* 去除外边框效果 1 */
 		outline:none; /* 去除外边框效果 2 */
     	font-size: 16px;
-		font-weight: 600;
+		font-weight: 700;
 		width: 100%;
     	height: 48px;
     	line-height: 48px;
