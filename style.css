@@ -261,11 +261,54 @@
 		font-family: futuraa;
 	}
 
+	.map {
+		float: left;
+		width: 100%;
+		height: 150px;
+		background-image: url(imgs/map.png);
+		background-size: cover;
+		text-align: center;
+		margin-bottom: 50px; 
+	}
+
+	.map a{
+		margin: 0 auto;
+		font-size: 12px;
+		text-decoration: none;
+		color: rgb(0,0,0);
+		font-weight: 300;
+		background: rgb(255,255,255);
+		padding: 10px 10px;
+		position: relative;
+    	top: 45%;
+    	transform: translate(0, -45%);
+	}
+
+	.map a a:link {
+		color: rgb(0,0,0);
+	}
+
+	.map b {
+		font-weight: 500;
+	}
+
+	.icons {
+		margin-bottom: 40px;
+		width: 100%;
+	}
+
+	.icon {
+		width: 24px;
+		height: 24px;
+		margin-right: 20px;
+	}
+
 /*版权申明*/
 	.copyright {
 		float: left;
 		font-size: 11px;
 		color: rgb(150,150,150);
+		padding-bottom: 20px;
 	}
 
 
