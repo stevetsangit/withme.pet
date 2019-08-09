@@ -8,6 +8,10 @@
 	<meta name="viewport" content="width=device-width, viewport-fit=cover"> <!--适配iPhone底部条-->
 	<link rel="icon" type="image/x-icon" sizes="16x16 32x32 128x128" href="favicon.ico">
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script src='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' />
+
 </head>
 
 <style>
@@ -94,7 +98,35 @@
 			</div>
 			<div class="serRight"><img class="serICONs" src="icons/serSP.svg"></div>
 		</div>
+	</div>
+	<div class="works">
+		<div class="worksTitle">Beautiful moment</div>
+		<img class="worksImg" src="imgs/work-1.jpg">
+	</div>
+	<div class="footer">
+		<div class="footerTitle">Contact us</div>
 
+		<table class="contactTable">
+			<tr class="conTi">
+  				<td>Tel</td>
+  				<td>Email</td>
+			</tr>
+			<tr class="conInfo">
+  				<td>134-3060-1994</td>
+  				<td>info@withme.pet</td>
+			</tr>
+		</table>
+
+		<div id='map' style='width: 100%; height: 300px;'></div>
+		<script>
+			mapboxgl.accessToken = 'pk.eyJ1Ijoic3RldmFnZXN6IiwiYSI6IjJmNjRlOGIyZWU1YzIxYzY4ZWNmZjNlNGU1MTEyMDYyIn0.aFQmq8pu3D1D30ndjGBPXg';
+				var map = new mapboxgl.Map({
+				container: 'map',
+				style: 'mapbox://styles/stevagesz/cjz3x0x4w1bqq1co1mkdg2mww'
+			});
+		</script>
+
+		<div class="copyright">Copyright (c) 2019 withme.pet All rights reserved.</div>
 	</div>
 
 </body>
