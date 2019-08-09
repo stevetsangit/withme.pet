@@ -235,6 +235,7 @@
 		line-height: 1;
 		font-weight: 200;
 		padding-bottom: 25px;
+		float: left;
 	}
 
 	.contactTable {
@@ -295,6 +296,7 @@
 	.icons {
 		margin-bottom: 40px;
 		width: 100%;
+		float: left;
 	}
 
 	.icon {
