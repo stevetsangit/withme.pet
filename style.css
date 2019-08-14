@@ -1,6 +1,6 @@
 	body{
 	
-		max-width:450px;
+		max-width:680px;
 		margin: 0 auto;
 		
 		padding-bottom: constant(safe-area-inset-bottom); 
@@ -260,6 +260,17 @@
 	.conInfo {
 		font-size: 18px;
 		font-family: futuraa;
+		color: rgb(0,0,0);
+	}
+
+	.conInfo a:link, a:visited {
+		color:rgb(0,0,0);
+		text-decoration: none;
+	}
+
+	.conBtn a:link, a:visited {
+		color:rgb();
+		text-decoration: none;
 	}
 
 	.map {
