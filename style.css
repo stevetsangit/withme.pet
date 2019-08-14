@@ -236,6 +236,7 @@
 		font-weight: 200;
 		padding-bottom: 25px;
 		float: left;
+		width: 100%;
 	}
 
 	.contactTable {
@@ -268,10 +269,20 @@
 		text-decoration: none;
 	}
 
+	.conInfo a:hover {
+		text-decoration: underline;
+		color: rgb(0,0,0);
+	}
+
 	.conBtn a:link, a:visited {
-		color:rgb();
+		font-weight: 400;
+		color:rgb(45, 185, 200);
 		text-decoration: none;
 	}
+
+	.conBtn a:hover {
+		text-decoration: underline;
+		}
 
 	.map {
 		float: left;
