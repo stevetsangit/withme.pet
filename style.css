@@ -274,16 +274,6 @@
 		color: rgb(0,0,0);
 	}
 
-	.conBtn a:link, a:visited {
-		font-weight: 400;
-		color:rgb(45, 185, 200);
-		text-decoration: none;
-	}
-
-	.conBtn a:hover {
-		text-decoration: underline;
-		}
-
 	.map {
 		float: left;
 		width: 100%;
