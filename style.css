@@ -208,7 +208,7 @@
 /*图片展示*/
 	.works {
 		float: left;
-		padding: 30px;
+		padding: 60px 30px 30px 30px;
 	}
 
 	.worksTitle {
@@ -322,6 +322,8 @@
 		margin: 0 auto;
 		color: rgb(0,0,0);
 		vertical-align: middle;
+		font-size: 12px;
+		font-weight: 400;
 	}
 
 	.inswb a:link, avisited {
@@ -333,7 +335,7 @@
 		width: 24px;
 		height: 24px;
 		vertical-align: middle;
-		padding-right: 4px;
+		padding-right: 8px;
 		}
 
 	.insta {
