@@ -140,7 +140,7 @@
 	.btbtext{
 		background: rgb(251, 227, 0);
 		border: none;
-    	border-radius: 2px;
+    	border-radius: 4px;
     	color: rgb(0,0,0);
 		display: inline-block; /* 去除外边框效果 1 */
 		outline:none; /* 去除外边框效果 2 */
@@ -163,8 +163,8 @@
 /*服务区*/
 	.service {
 		float: left;
-		padding: 50px 30px 25px 30px;
-		background: rgb(250,250,250);
+		padding: 50px 12px 12px 12px;
+		background: rgb(246, 245, 242);
 	}
 
 	.btitle {
@@ -172,13 +172,17 @@
 		line-height: 1;
 		font-family: futuraa;
 		font-weight: 200;
-		padding-bottom: 25px;
+		padding: 0 18px 40px 18px;
+
 	}
 
 	.petSer {
 		float: left;
-		padding: 25px 0;
-		width: 100%;
+		padding: 0px 0;
+		background-color: rgb(255,255,255);
+		padding: 20px 18px 0 18px;
+		margin-bottom: 16px;
+		border-radius: 12px;
 	}
 
 /*服务区-左侧整体*/
@@ -191,8 +195,9 @@
 /*服务区-左侧内容*/
 	.serTitle {
 		padding-bottom: 10px;
-		font-size: 16px;
-		font-weight: 600;
+		font-size: 20px;
+		font-weight: 400;
+		letter-spacing: 1px;
 	}
 
 	.serInfo {
@@ -204,20 +209,12 @@
 /*服务区-左侧链接接样式*/
 	.moreLinks {
 		float: left;
-	}
-
-	.moreLinks ul {
-		float: left;
-		padding: 0px;
-	}
-
-	.moreLinks li {
-		float: left;
-		list-style-type: none;
 		color: rgb(45, 185, 200);
     	font-size: 12px;
 		font-weight: 400;
-    	margin-right: 20px;
+		line-height: 1;
+		padding: 10px 0;
+		margin-bottom: 10px
 	}
 
 	.moreLinks a:link {
