@@ -98,24 +98,31 @@
 
 /*关于我们*/
 	.info {
-		float: left;
 		background: #eee;
 		background-image: url('imgs/aboutbg.png');
 		background-size: 200px;
-		padding: 30px;
 		margin: 0 auto;
 	}
 
 	/*文本*/
 	.btnTxt {
 		float: left;
+		background-image: url('imgs/aboutimgg.png');
+		background-color: transparent;
+		background-size: 200px;
+		background-repeat: no-repeat;
+		background-position: 95% 100%;
+		padding: 30px;
 	}
+
 
 	.about {
 		font-size: 12px;
 		letter-spacing: 1px;
 		line-height: 1.8;
 		text-align: left;
+		float: left;
+		width: 75%;
 	}
 
 	.about b{
@@ -124,7 +131,9 @@
 
 	/*按钮*/
 	.btbooking{
+		float: left;
 		margin-top: 20px;
+		width: 100%;
 	}
 
 	.btbtext{
@@ -145,7 +154,7 @@
 
     /*配图*/
 	.infoimg {
-		float: right;
+		float: left;
 		width: 50%;
 	}
 
