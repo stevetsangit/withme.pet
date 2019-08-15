@@ -48,15 +48,15 @@
 		text-align: center;
 		overflow: hidden;
 		color: rgb(0, 0, 0);
-		padding: 0 0 0 30px;
 		margin: 0 auto;
 	}
 
 	.LM {
 		margin: 0 auto;
-		padding: 20px 0 20px 0;
-		height: 80px;
+		padding: 20px 0 20px 30px;
+		height: 120px;
 		max-width: 960px;
+		box-sizing: border-box; /* 解决width=100% Padding宽度溢出 */
 	}
 
 	.logo img{
@@ -87,8 +87,10 @@
 
 	.slo {
 		margin: 0 auto;
+		padding: 0 30px;
 		width: 100%;
 		max-width: 960px;
+		box-sizing: border-box; /* 解决width=100% Padding宽度溢出 */
 	}
 
 	.slogan{
@@ -108,24 +110,21 @@
 		background: #eee;
 		background-image: url('imgs/aboutbg.png');
 		background-size: 200px;
-		margin: 0 auto;
 		width: 100%;
 	}
 
 	/*文本*/
 	.btnTxt {
 
-		margin: 0 auto;
-		float: left;
-		
+		margin: 0 auto;		
 		background-image: url('imgs/aboutimgg.png');
 		background-color: transparent;
 		background-size: 200px;
 		background-repeat: no-repeat;
-		background-position: 95% 100%;
-
+		background-position: 100% 100%;
 		padding: 30px;
 		max-width: 960px;
+		box-sizing:border-box; /* 解决width=100% Padding宽度溢出 */
 
 	}
 
@@ -134,8 +133,6 @@
 		font-size: 12px;
 		letter-spacing: 1px;
 		line-height: 1.8;
-		text-align: left;
-		float: left;
 		width: 75%;
 	}
 
@@ -145,9 +142,7 @@
 
 	/*按钮*/
 	.btbooking{
-		float: left;
 		margin-top: 20px;
-		width: 100%;
 	}
 
 	.btbtext{
@@ -166,17 +161,11 @@
     	padding: 0 20px;
     }
 
-    /*配图*/
-	.infoimg {
-		float: left;
-		width: 50%;
-	}
-
 
 /*服务区*/
 	.service {
 		float: left;
-		padding: 50px 12px 12px 12px;
+		padding: 20px 0;
 		width: 100%;
 		background: rgb(246, 245, 242);
 		margin: 0 atuo;
@@ -188,22 +177,27 @@
 		line-height: 1;
 		font-family: futuraa;
 		font-weight: 200;
-		margin: 0 18px 40px 18px;
+		margin: 0 auto;
+		padding: 30px;
+		max-width: 960px;
+		box-sizing: border-box; /* 解决width=100% Padding宽度溢出 */
+	}
+
+	.psall {
+		max-width: 960px;
+		margin: 0 auto;
+		padding: 12px;
+		box-sizing: border-box; /* 解决width=100% Padding宽度溢出 */
 	}
 
 	.petSer {
 		float: left;
 		background-color: rgb(255,255,255);
-
-		width: 100%;
-
-		padding: 20px 18px 0 18px;
+		padding: 20px 18px;
 		box-sizing:border-box; /* 解决width=100% Padding宽度溢出 */
-
 		margin-bottom: 12px;
-		margin-right: 12px;
 		border-radius: 12px; 
-		
+		width: 100%;
 	}
 
 /*服务区-左侧整体*/
@@ -234,8 +228,7 @@
     	font-size: 12px;
 		font-weight: 400;
 		line-height: 1;
-		padding: 10px 0;
-		margin-bottom: 10px;
+		padding-top: 15px;
 	}
 
 	.moreLinks a:link {
@@ -256,9 +249,18 @@
 
 /*图片展示*/
 	.works {
-		float: left;
-		padding: 60px 30px 30px 30px;
 		background: rgb(255,255,255);
+		width: 100%;
+		padding: 20px 0;
+		margin: 0 auto;
+		float: left;
+	}
+
+	.worksmain {
+		max-width: 960px;
+		margin: 0 auto;
+		padding: 30px;
+		box-sizing:border-box; /* 解决width=100% Padding宽度溢出 */
 	}
 
 	.worksTitle {
@@ -266,18 +268,26 @@
 		line-height: 1;
 		font-family: futuraa;
 		font-weight: 200;
-		padding-bottom: 25px;
+		padding-bottom: 30px;
 	}
 
 	.worksImg {
 		width: 100%;
+		box-sizing:border-box; /* 解决width=100% Padding宽度溢出 */
 	}
 
 /*页底-联系方式等*/
 	.footer {
+		width: 100%;
 		float: left;
-		padding: 30px;
 		background: rgb(255,255,255);
+	}
+
+	.footerall {
+		max-width: 960px;
+		margin: 0 auto;
+		padding: 30px;
+		box-sizing:border-box; /* 解决width=100% Padding宽度溢出 */
 	}
 
 	.footerTitle {
@@ -286,28 +296,26 @@
 		line-height: 1;
 		font-weight: 200;
 		padding-bottom: 25px;
-		float: left;
-		width: 100%;
 	}
 
 	.contactTable {
 		border: none;
-		float: left;
 		line-height: 24px;
 		font-family: futuraa;
 		padding-bottom: 25px;
+		width: 100%;
+		box-sizing:border-box; /* 解决width=100% Padding宽度溢出 */
 	}
 
 	.contactTable td{
 		padding-right: 20px;
+		width: 50%;
 	}
 
 	.conTi {
 		font-size: 12px;
 		color: rgb(150,150,150);
 		font-weight: 500;
-		padding-right: 20px;
-		width: 50%;
 	}
 
 	.conInfo {
@@ -326,14 +334,16 @@
 		color: rgb(0,0,0);
 	}
 
+
+	/*地图地址*/
 	.map {
-		float: left;
-		width: 100%;
 		height: 150px;
 		background-image: url(imgs/map.png);
 		background-size: cover;
 		text-align: center;
 		margin-bottom: 50px; 
+		width: 100%;
+		box-sizing:border-box; /* 解决width=100% Padding宽度溢出 */
 	}
 
 	.map a{
@@ -347,6 +357,7 @@
 		position: relative;
     	top: 45%;
     	transform: translate(0, -45%);
+    	width: 100%;
 	}
 
 	.map a a:link {
@@ -355,6 +366,12 @@
 
 	.map b {
 		font-weight: 500;
+	}
+
+	/*社交媒体*/
+	.sns {
+		width: 100%;
+		float: left;
 	}
 
 	.wechat {
@@ -395,10 +412,10 @@
 
 /*版权申明*/
 	.copyright {
-		float: left;
 		font-size: 11px;
 		color: rgb(150,150,150);
 		padding: 40px 0;
+		float: left;
 		width: 100%;
 	}
 
