@@ -98,6 +98,7 @@
 
 /*关于我们*/
 	.info {
+		float: left;
 		background: #eee;
 		background-image: url('imgs/aboutbg.png');
 		background-size: 200px;
