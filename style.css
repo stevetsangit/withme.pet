@@ -144,10 +144,10 @@
     	color: rgb(0,0,0);
 		display: inline-block; /* 去除外边框效果 1 */
 		outline:none; /* 去除外边框效果 2 */
-    	font-size: 12px;
+    	font-size: 14px;
 		font-weight: 600;
-		height: 36px;
-    	line-height: 36px;
+		height: 40px;
+    	line-height: 40px;
     	text-align: center;
     	text-decoration: none;
     	padding: 0 20px;
