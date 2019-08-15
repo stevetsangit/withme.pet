@@ -1,6 +1,6 @@
 	body{
 	
-		max-width:680px;
+		max-width: 960px;
 		margin: 0 auto;
 		
 		padding-bottom: constant(safe-area-inset-bottom); 
@@ -8,12 +8,14 @@
 		padding-bottom: env(safe-area-inset-botom); 
 		/* 适配iPhoneX底部 兼容 iOS >= 11.2 */
 		
-		background: rgb(255, 255, 255);
+		background: gray;
 		font-size: 14px;
 		font-family: -apple-system, BlinkMacSystemFont, 
 		"PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",
 		Tahoma,Simsun,sans-serif;
 		font-weight: 300;
+		box-sizing:border-box; /* 解决width=100% Padding宽度溢出 */
+
     }
 
     @font-face {
@@ -47,6 +49,7 @@
 		overflow: hidden;
 		color: rgb(0, 0, 0);
 		padding: 0 0 0 30px;
+		margin: 0 auto;
 	}
 
 	.LM {
@@ -164,7 +167,10 @@
 	.service {
 		float: left;
 		padding: 50px 12px 12px 12px;
+		width: 100%;
 		background: rgb(246, 245, 242);
+		margin: 0 atuo;
+		box-sizing:border-box; /* 解决width=100% Padding宽度溢出 */
 	}
 
 	.btitle {
@@ -172,24 +178,29 @@
 		line-height: 1;
 		font-family: futuraa;
 		font-weight: 200;
-		padding: 0 18px 40px 18px;
-
+		margin: 0 18px 40px 18px;
 	}
 
 	.petSer {
 		float: left;
-		padding: 0px 0;
 		background-color: rgb(255,255,255);
+
+		width: 100%;
+
 		padding: 20px 18px 0 18px;
-		margin-bottom: 16px;
-		border-radius: 12px;
+		box-sizing:border-box; /* 解决width=100% Padding宽度溢出 */
+
+		margin-bottom: 12px;
+		margin-right: 12px;
+		border-radius: 12px; 
+		
 	}
 
 /*服务区-左侧整体*/
 	.serLeft {
 		margin: 0 auto;
 		float: left;
-		width: 60%;
+		width: 65%;
 	}
 
 /*服务区-左侧内容*/
@@ -214,7 +225,7 @@
 		font-weight: 400;
 		line-height: 1;
 		padding: 10px 0;
-		margin-bottom: 10px
+		margin-bottom: 10px;
 	}
 
 	.moreLinks a:link {
@@ -224,8 +235,8 @@
  
 /*服务区-右侧图标样式*/
 	.serRight {
+		float: left;
 		width: 35%;
-		float: right;
 	}
 
 	.serICONs {
@@ -237,6 +248,7 @@
 	.works {
 		float: left;
 		padding: 60px 30px 30px 30px;
+		background: rgb(255,255,255);
 	}
 
 	.worksTitle {
@@ -255,6 +267,7 @@
 	.footer {
 		float: left;
 		padding: 30px;
+		background: rgb(255,255,255);
 	}
 
 	.footerTitle {
