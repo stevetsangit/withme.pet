@@ -43,7 +43,9 @@
 	.banner{
 		background: rgb(251, 227, 0);
 		background-image: url('imgs/bannerbg.png');
-		background-size: cover;
+		background-size: auto 220px;
+		background-repeat: no-repeat;
+		background-position: center top;
 		height: 220px;
 		text-align: center;
 		overflow: hidden;
