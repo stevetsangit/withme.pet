@@ -43,30 +43,36 @@
 	#bg {
 		max-width: 960px;
 		margin: 0 auto;
-		height: 100%;
 		box-sizing: border-box; /* 解决width=100% Padding宽度溢出 */
+		padding: 40px;
 	}
 
-	#bgg {
-		height: 100%;
-		margin: 20px;
-		padding: 20px;
-		background: white;
-		box-sizing: border-box; /* 解决width=100% Padding宽度溢出 */
-	}
+		#bgg {
+			background: white;
+			box-sizing: border-box; /* 解决width=100% Padding宽度溢出 */
+			background: white;
+			border-radius: 16px;
+			padding: 40px 0;
+		}
 
-	#qr {
-		margin: 0 auto;
-		width: 200px;
+			#qr {
+				margin: 0 auto;
+				width: 50%;
+				max-width: 200px;
+			}
 
-	}
+				#qr img	{
+					width: 100%;
+				}
 
-	#qr img	{
-		width: 100%;
-		box-sizing: border-box; /* 解决width=100% Padding宽度溢出 */
-	}
+			#txt {
+				text-align: center;
+				padding-top: 20px;
+			}
 
-	#txt {
+	.copyright {
+		font-size: 11px;
+		color: rgb(150,150,150);
 		text-align: center;
+		
 	}
-	
