@@ -1,0 +1,98 @@
+ <!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> <!--适配移动显示-->
+<head>
+	<title>宠伴我服务价格</title>
+	<meta name="description" content="宠伴我是一家为宠友提供优质服务的品牌，现主要包含宠物美容、寄养、食用品及活体售卖等相关服务。我们以陪伴互动的品牌理念，立志于为你的宠物提供更加健康的生活。">
+	<meta name="keywords" content="Pet, Pets, Dog, Cat, 宠物, 宠物服务, 宠物美容, 宠物洗澡, 宠物剪毛, 宠物SPA, 宠物寄养, 宠物商品, 宠物用品, 宠物玩具, 宠物生活, 狗, 猫, 雪貂, 宠物陪伴">
+	<meta name="viewport" content="width=device-width, viewport-fit=cover"> <!--适配iPhone底部条-->
+	<link rel="icon" type="image/x-icon" sizes="16x16 32x32 128x128" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="price-style.css">
+	<script src="script.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+
+	<script src='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' />
+
+</head>
+
+<body>
+
+<!--Banner-->
+	<div class="banner">
+		<div class="LM">
+			<div class="logo"><img src="icons/logo.svg"></div>
+			<div class="menu">
+				<ul>
+				<li>
+					<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">商城</a>
+					<div id="light" class="white_content">
+						
+						<!--弹窗内容开始-->
+
+						<div id="qrbg">
+							<div id="qrqr">
+								<img src="imgs/wxaqrcode.jpeg"></img>
+							</div>
+							<div id="qrtxt">长按识别或扫码进入</div>
+						</div>
+						<div id="qrClose" href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">关闭</div>
+
+						<!--弹窗内容结束-->
+
+	       			</div>
+	        		<div id="fade" class="black_overlay"></div> 
+				</li>
+				<li><a href="member.html" >会员</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="slo">
+			<div class="slogan"><a>Service Price</a></div>
+		</div>
+	</div>
+
+
+
+<!--联系我们及页脚-->
+	<div class="footer">
+
+		<div class="footerall">
+			<div class="footerTitle">Contact us</div>
+
+			<table class="contactTable">
+				<tr class="conTi">
+	  				<td>Tel</td>
+	  				<td>Email</td>
+				</tr>
+				<tr class="conInfo">
+	  				<td><a href="tel:13430601994">134-3060-1994</a></td>
+	  				<td><a href="mailto:hi@withme.pet">hi@withme.pet</a></td>
+				</tr>
+			</table>
+
+			<div class="map">
+				<a>深圳宝安花样年花郡118铺</a><a href="https://router.map.qq.com/short?l=989dfc0343e31c8e04d27ed082d722e0"><b>导航出发</b></a>
+			</div>
+
+			<div class="sns">
+				<div class="wechat">
+					<img src="imgs/wechatqr.png"></img>
+				</div>
+
+				<div class="inswb">
+					<div class="insta">
+						<a href="https://www.instagram.com/withme.pet"><img  src="icons/insta.svg"></img>withme.pet</a>
+					</div>
+					<div class="weibo">
+						<a href="https://weibo.com/withmepet"><img  src="icons/weibo.svg"></img>weibo.com/withmepet</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="copyright">Copyright (c) 2019 withme.pet All rights reserved.</div>
+		</div>
+	</div>
+
+</body>
+</html>
