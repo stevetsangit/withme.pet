@@ -195,7 +195,63 @@
 }
 
 /*主要内容开始*/
-	
+	#priceBg {
+		margin: 0 auto;
+		width: 100%;
+		background: rgb(240,240,240);
+		padding: 25px 0;
+		overflow:hidden;
+	}
+		.priceItem {
+			margin: 0 auto;
+			max-width: 960px;
+			padding: 15px 30px;
+			box-sizing: border-box; /* 解决width=100% Padding宽度溢出 */
+			overflow:hidden;
+		}
+
+			.priceTitle {
+				margin: 0 auto;
+				font-size: 24px;
+				font-weight: 500px;
+				font-family: futuraa;
+				padding-bottom: 16px;
+			}
+
+			.priceInfo {
+				margin: 0 auto;
+				font-size: 13px;
+				padding-bottom: 16px;
+			}
+
+			.priceTable {
+				margin: 0 auto;
+				font-weight: 500;
+			}
+
+			.priceRemarks {
+				margin: 0 auto;
+				background: rgb(240,240,240);
+				overflow:hidden;
+				padding-top: 16px;
+			}
+
+				.priceRemarks ul {
+					margin: 0 auto;
+					padding-left: 17px;
+					overflow:hidden;
+				}
+
+				.priceRemarks li {
+					margin: 0 auto;
+					float: left;
+					width: 100%;
+					line-height: 1.5;
+					font-weight: 300;
+					list-style-type: circle;
+					padding: 0px;
+					font-size: 13px;
+				}
 
 
 
