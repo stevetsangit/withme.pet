@@ -20,37 +20,36 @@
 
 <!--Banner-->
 	<div class="banner">
-		<div class="LM">
-			<div class="logo"><img src="icons/logo.svg"></div>
-			<div class="menu">
-				<ul>
-				<li>
-					<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">商城</a>
-					<div id="light" class="white_content">
-						
-						<!--弹窗内容开始-->
-
-						<div id="qrbg">
-							<div id="qrqr">
-								<img src="imgs/wxaqrcode.jpeg"></img>
-							</div>
-							<div id="qrtxt">长按识别或扫码进入</div>
-						</div>
-						<div id="qrClose" href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">关闭</div>
-
-						<!--弹窗内容结束-->
-
-	       			</div>
-	        		<div id="fade" class="black_overlay"></div> 
-				</li>
-				<li><a href="member.html" >会员</a></li>
-				</ul>
+		<div class="bannerBg">
+			<div class="LM">
+				<div class="logo" onclick="window.open('index.html','_self')"><img src="icons/logo.svg"></div>
+				<div class="menu">
+					<ul>
+						<li><!--商城弹窗入口开始-->
+							<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">商城</a>
+						</li>
+						<li><a href="member.html" >会员</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="slo">
+				<div class="slogan"><a>I am always with you.</a></div>
 			</div>
 		</div>
-		<div class="slo">
-			<div class="slogan"><a>I am always with you.</a></div>
+	</div>
+
+	<!--商城弹窗内容开始-->
+	<div id="qrwin">
+		<div id="light" class="white_content">
+			<div id="qrbg">
+				<div id="qrimg"><img src="imgs/wxaqrcode.jpeg"></img></div>
+				<div id="qrtxt">长按识别或扫码进入</div>
+			</div>
+			<div id="qrClose" href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">关闭</div>
 		</div>
 	</div>
+	<div id="fade" class="black_overlay"></div>
+	<!--商城弹窗内容结束-->
 
 <!--关于我们-->
 	<div class="info">
