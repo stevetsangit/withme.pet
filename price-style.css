@@ -42,46 +42,52 @@
     第一部分内容*/
 	.banner{
 		background: rgb(247, 217, 23);
-		height: 220px;
-		text-align: center;
 		overflow: hidden;
 		color: rgb(0, 0, 0);
-		margin: 0 auto;
 	}
 
-	.LM {
-		margin: 0 auto;
-		padding: 20px 0 20px 30px;
-		height: 120px;
-		max-width: 960px;
-		box-sizing: border-box; /* 解决width=100% Padding宽度溢出 */
-	}
+		.bannerBg{
+			width: 100%;
+			max-width: 960px;
+			margin: 0 auto;
+		}
 
-	.logo img{
-		float: left;
-		width: 52px;
-		height: 52px;
-	}
+			.LM {
+				margin: 0 auto;
+				padding: 20px 0 20px 30px;
+				width: 100%;
+				max-width: 960px;
+				box-sizing: border-box; /* 解决width=100% Padding宽度溢出 */
+				float: left;
+			}
 
-	.menu {
-		float: right;
-		margin-right: 15px;
-	}
+				.logo img{
+					float: left;
+					width: 52px;
+					height: 52px;
+				}
 
-	.menu li {
-		float: left;
-		list-style:none;
-		color: rgb(0, 0, 0);
-    	font-size: 14px;
-		font-weight: 600;
-    	text-decoration: none;
-    	padding: 0 15px;
-	}
+				.menu {
+					float: right;
+					margin: 0 auto;
+				}
 
-	.menu a:link {
-		color:rgb(0, 0, 0);
-		text-decoration: none;
-	}
+				.menu ul,li {
+					float: left;
+					list-style:none;
+					color: rgb(0, 0, 0);
+			    	font-size: 14px;
+					font-weight: 600;
+			    	text-decoration: none;
+			    	padding: 0 15px;
+			    	margin: 0 auto;
+			    	line-height: 52px;
+				}
+
+				.menu a:link {
+					color:rgb(0, 0, 0);
+					text-decoration: none;
+				}
 
 
     /*商城太阳码弹窗*/
@@ -147,17 +153,26 @@
 		width: 100%;
 		max-width: 960px;
 		box-sizing: border-box; /* 解决width=100% Padding宽度溢出 */
+		float: left;
 	}
 
 	.slogan{
-		width: 230px;
-		height: 80px;
 		color: #000;
 		font-weight: 400;
 		text-align: left;
 		font-size: 32px;
 		line-height: 1;
 		font-family: futuraa;
+	}
+
+	.sloinfo{
+		width: 100%;
+		color: #000;
+		font-weight: 300;
+		text-align: justify;
+		font-size: 13px;
+		line-height: 1.5;
+		padding: 20px 0 28px 0;
 	}
 
 
