@@ -296,6 +296,9 @@
 					margin: 0 auto;
 					overflow: hidden;
 					padding: 8px 16px 0 16px;
+					font-size: 13px;
+					font-weight: 300;
+					color: rgb(150, 150, 150);
 				}
 
 					.priceRemarks ul {
@@ -309,7 +312,7 @@
 						float: left;
 						width: 100%;
 						line-height: 1.5;
-						font-weight: 350;
+						font-weight: 300;
 						list-style-type: disc;
 						padding: 0px;
 						padding-top: 8px;
