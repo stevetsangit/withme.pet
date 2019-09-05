@@ -249,7 +249,7 @@
     			color: rgb(45, 185, 200);
 				display: inline-block; /* 去除外边框效果 1 */
 				outline:none; /* 去除外边框效果 2 */
-		    	font-size: 12px;
+		    	font-size: 14px;
 				font-weight: 400;
 				height: 18px;
 		    	line-height: 18px;
