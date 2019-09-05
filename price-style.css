@@ -238,6 +238,26 @@
 				padding: 0 16px;
 			}
 
+			.FAQlink {
+				padding: 8px 16px 0 16px;
+			}
+
+			.btbtext {
+				background: transparent;
+				border: none;
+    			border-radius: 0;
+    			color: rgb(45, 185, 200);
+				display: inline-block; /* 去除外边框效果 1 */
+				outline:none; /* 去除外边框效果 2 */
+		    	font-size: 12px;
+				font-weight: 400;
+				height: 18px;
+		    	line-height: 18px;
+		    	text-align: center;
+		    	text-decoration: none;
+		    	padding: 0;
+			}
+
 			.priceTable {
 				margin-top: 16px;
 				font-weight: 500;
@@ -247,24 +267,25 @@
 				border-radius: 12px;
 			}
 
-				.priceSubTi {
-					padding: 12px 16px 0px 16px;
-					line-height: 2;
-					font-size: 20px;
-					font-family: futuraa;
-					font-weight: 400;
-				}
+			.priceSubTi {
+				padding: 12px 16px 0px 16px;
+				line-height: 2;
+				font-size: 20px;
+				font-family: futuraa;
+				font-weight: 400;
+			}
 
-				.priceTable table {
-					width: 100%;
-					font-size: 13px;
-					font-weight: 400;
-					border-spacing: 0;
-					line-height: 2.5;
-					padding: 12px 16px 4px 16px;
-					font-family: futuraa;
-					text-align: left;
-				}
+
+			.priceTable table {
+				width: 100%;
+				font-size: 13px;
+				font-weight: 400;
+				border-spacing: 0;
+				line-height: 2.5;
+				padding: 12px 16px 4px 16px;
+				font-family: futuraa;
+				text-align: left;
+			}
 
 				.priceTable td {
 					border-top: 2px solid #F6F5F2;
