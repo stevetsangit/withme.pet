@@ -328,6 +328,8 @@
 		border-radius: 12px;
 		float: left;
 		position: relative;	
+		box-sizing: border-box;
+		width: 100%;
 	}
 
 		.privilegesB h3 {
@@ -349,8 +351,6 @@
 			padding-left: 0px;
 			padding-top: 32px;
 			overflow:hidden;
-			width: 100%;
-			box-sizing: border-box;
 		}
 
 			.privilegesB li{
@@ -378,12 +378,13 @@
 		margin: 0 auto;
 		display: block;
 		background: rgb(255,22,63);
-		width: 180px;
+		width: 150px;
 		line-height: 54px;
 		text-align: center;
 		color: rgb(255,255,255);
 		border-radius: 54px;
 		font-weight: 500;
+		font-size: 16px;
 	}
 
 /*主要内容结束*/
