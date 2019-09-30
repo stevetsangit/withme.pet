@@ -265,6 +265,8 @@
 
 	.vipinfo {
 		padding-bottom: 40px;
+		float: left;
+		width: 100%;
 	}
 	.vipinfo h3 {
 		padding: 0 24px 20px 24px;
@@ -354,23 +356,19 @@
 
 	#btnbot {
 		margin: 0 auto;
-		padding: 40px 0 10px 0;
 		width: 100%;
-		overflow: inherit;
-		max-width: 180px;
 		float: left;
+		padding: 40px 0;
 	}
 
 	.botbtn {
-		padding: 0 44px;
-		font-size: 13px;
-		line-height: 54px;
-		border-radius: 100px;
+		margin: 0 auto;
+		display: block;
 		background: rgb(255,22,63);
-		font-weight: 500;
-		color: rgb(255,255,255);
-		box-shadow: 0px 20px 50px rgb(255,22,63,.5);
+		width: 180px;
+		line-height: 54px;
 		text-align: center;
+		color: rgb(255,255,255);
 	}
 
 /*主要内容结束*/
