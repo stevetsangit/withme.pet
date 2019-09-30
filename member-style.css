@@ -246,8 +246,10 @@
 
 		.privileges ul {
 			margin: 0 auto;
-			padding-left: 17px;
+			padding-left: 0px;
 			overflow:hidden;
+			width: 100%;
+			box-sizing: border-box;
 		}
 
 			.privileges li{
@@ -255,12 +257,13 @@
 				float: left;
 				width: 100%;
 				line-height: 1.8;
-				font-weight: 400;
-				list-style-type: circle;
-				padding: 0px;
-				padding-top: 8px;
+				font-weight: 300;
+				list-style: none;
+				background: url("imgs/list-style.svg") no-repeat 0 11.5px;
+				padding: 8px 0 0 22px;
 				font-size: 13px;
 				font-family: futuraa;
+				box-sizing: border-box;
 			}
 
 	.vipinfo {
@@ -319,6 +322,7 @@
 
 	.privilegesB {
 		margin: 0 auto;
+		margin-top: 15px;
 		padding: 0 24px 30px 24px;
 		background: rgb(0,235,245);
 		border-radius: 12px;
@@ -329,7 +333,7 @@
 		.privilegesB h3 {
 			line-height: 32px;
 			margin: 0 auto;
-			padding: 0 12px;
+			padding: 0 16px;
 			font-size: 14px;
 			color: rgb(255,255,255);
 			background: rgb(0,0,0);
@@ -342,9 +346,11 @@
 		.privilegesB ul {
 			float: left;
 			margin: 0 auto;
-			padding-left: 17px;
+			padding-left: 0px;
 			padding-top: 32px;
 			overflow:hidden;
+			width: 100%;
+			box-sizing: border-box;
 		}
 
 			.privilegesB li{
@@ -352,12 +358,13 @@
 				float: left;
 				width: 100%;
 				line-height: 1.8;
-				font-weight: 400;
-				list-style-type: circle;
-				padding: 0px;
-				padding-top: 8px;
+				font-weight: 300;
+				list-style: none;
+				background: url("imgs/list-style.svg") no-repeat 0 11.5px;
+				padding: 8px 0 0 22px;
 				font-size: 13px;
 				font-family: futuraa;
+				box-sizing: border-box;
 			}
 
 	#btnbot {
