@@ -323,21 +323,27 @@
 		background: rgb(0,235,245);
 		border-radius: 12px;
 		float: left;
+		position: relative;	
 	}
 
 		.privilegesB h3 {
-			line-height: 1.5;
+			line-height: 32px;
 			margin: 0 auto;
-			padding-bottom: 10px;
-			color: rgb(255,22,63);
+			padding: 0 12px;
+			font-size: 14px;
+			color: rgb(255,255,255);
 			background: rgb(0,0,0);
 			float: left;
+			position: absolute;/* 若要此定位依据父元素定位，需要设置父元素定位为relative */
+			top: -15px;
+			border-radius: 32px;
 		}
 
 		.privilegesB ul {
 			float: left;
 			margin: 0 auto;
 			padding-left: 17px;
+			padding-top: 32px;
 			overflow:hidden;
 		}
 
@@ -369,6 +375,8 @@
 		line-height: 54px;
 		text-align: center;
 		color: rgb(255,255,255);
+		border-radius: 54px;
+		font-weight: 500;
 	}
 
 /*主要内容结束*/
